@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: white;
+  padding: 0;
+  font-size: 20px;
+}
+h1 {
+  margin: 0;
+  font-size: 35px;
+  padding: 5px;
+}
+
+/* Mainpage css */
+
+#heading1 {
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+  background-color: rgb(72, 174, 214);
+}
+#inputLocation {
+  height: 50vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+form {
+  width: 50vw;
+}
+form > div {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  height: 10px;
+  width: 300px;
+  border: dashed rgb(110, 108, 108) 2px;
+}
+input[type="button"] {
+  background-color: cornflowerblue;
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#getWeather {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width: 20vw;
+  margin-top: 100px;
+  color: white;
+  width: 200px;
+  background-color: brown;
+  justify-content: center;
+}
+
+/* WeatherPage css */
+
+.temperatures {
+  margin-right: 1vw;
+  display: inline;
+}
+
+footer {
+  background-color: rgb(34, 87, 122);
+  margin-top: 4vw;
+  color: white;
+  max-height: 4vw;
+  display: flex;
+  font-family: cursive;
+}
+footer .row {
+  justify-content: center;
+}
+footer h5 {
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
+footer h5 i {
+  margin: 0.5vw;
+  color: red;
+}
+.WeatherIcon {
+  height: 10vh;
+  width: 10vh;
+  margin-right: 1.5vw;
+}
+#currentForecast {
+  line-height: 4vh;
+  padding: 1vh;
+  text-align: center;
+  font-size: 2.5vh;
+  margin: 0;
+  color: black;
+  background-image: linear-gradient(to bottom right, #3edbf0, #87ff83);
+  border-radius: 3vw;
+  box-shadow: 5px 5px 20px #012cffa1;
+}
+#currentForecast .row {
+  margin: 3vh;
+}

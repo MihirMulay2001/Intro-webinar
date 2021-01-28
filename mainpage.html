@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Weather App
+        </title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Weather Forecast Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="Mihir Mulay">
+        <link rel="stylesheet" href ="./styles.css" type= "text/css" >
+    </head>
+    <body>
+        <section id="MainPage">
+            <header id="heading1">
+                <h1>Cloudie</h1>
+                <small>Your go to weather buddy</small>
+            </header>
+            <div id="inputLocation">
+                <form action="WeatherPage.html" method="GET">
+                    <div>
+                        <h3 style="font-size:2.5vh">
+                            Enter the Co-ordinates of the place
+                        </h3>
+                    </div>
+                    <div>
+                        <input id="latitude" type="text" name="latitude" placeholder="latitude" 
+                        value="" onkeyup="handleChange(event)" />
+                    </div>
+                    <div>
+                        <input id="longitude" type="text" name="longitude" placeholder="longitude"
+                            value="" onkeyup="handleChange(event)" />
+                    </div>
+                    <div>
+                        <input type="button" value="Get Location" onclick="getLocation(event)"></input>
+                    </div>
+                    <div>
+                        <button type="submit" id="getWeather">Get Weather</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+</html>
